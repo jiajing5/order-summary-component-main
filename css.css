@@ -1,0 +1,112 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+html,body{
+  margin:0; padding:0; box-sizing:border-box; clear:both; font-size: 14px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.bksetting{
+  width: 100vw;
+  height: 100vh;
+  background: top no-repeat url(./images/pattern-background-desktop.svg),
+  hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allwrap{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:white;
+  width: 20rem;
+  height: 30rem;
+  word-wrap: break-word;
+  border-radius: 20px;
+}
+img{
+  border-radius: 20px 20px 0px 0px;
+  width: 20rem;
+}
+.text{
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+  text-align: center;
+  margin: 0.8rem 0rem;
+  width: 15rem;
+}
+.title{
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2rem 0rem 0rem 0rem;
+  text-align: center;
+}
+planWrap{
+  display: flex;
+  width: 15rem;
+  background-color: hsla(258, 100%, 96%, 0.397);
+  border-radius: 10px;
+  align-items: center;
+}
+.musicicon{
+  width: 2rem;
+  height: 2rem;
+  margin: 0.9rem 0.9rem;
+}
+.planName{
+  font-weight: bold;
+}
+.price, .text{
+  color:hsl(223, 47%, 23%);
+}
+.planAndPrice{
+  font-size: 0.75rem;
+  width: 6rem;
+  line-height: 1.1rem;
+}
+.changebutton{
+  color:rgb(65, 47, 230);
+  text-decoration: underline;
+  font-size: 0.3rem;
+  margin-left: 2rem;
+}
+.changebutton:hover{
+  color:rgb(185, 114, 231);
+  cursor: pointer;
+  text-decoration: none;
+}
+.paymentbutton{
+  color: white;
+  background-color:rgb(47, 3, 206);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  width: 15rem;
+  padding: 0.8rem;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+.paymentbutton:hover {
+  cursor: pointer;
+  background-color:rgb(132, 105, 228);
+  box-shadow: 0px 5px 5px 5px rgb(228, 228, 228);
+}
+.cancelbutton{
+  color: rgb(79, 65, 211);
+  font-size: 0.75rem;
+}
+.cancelbutton:hover{
+  cursor: pointer;
+  color:black;
+  font-weight: bold;
+}
+@media screen and (min-width:1440px){
+  html{
+    font-size: 22px;
+  }
+  .allwrap{
+    max-height: 700px;
+  }
+}
