@@ -10,8 +10,7 @@ html,body{
 .bksetting{
   width: 100vw;
   height: 100vh;
-  background: top no-repeat url(./images/pattern-background-desktop.svg),
-  hsl(225, 100%, 94%);
+  background: top no-repeat url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   display: flex;
   justify-content: center;
