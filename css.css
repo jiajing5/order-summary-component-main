@@ -1,8 +1,8 @@
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
-
 html,body{
   margin:0; padding:0; box-sizing:border-box; clear:both; font-size: 14px;
+  font-family: 'Red Hat Display', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -11,7 +11,6 @@ html,body{
   width: 100vw;
   height: 100vh;
   background: top no-repeat url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
-  font-family: "Red Hat Display", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,18 +29,18 @@ img{
   border-radius: 20px 20px 0px 0px;
   width: 20rem;
 }
+.title{
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2rem 0rem 0rem 0rem;
+  text-align: center;
+}
 .text{
   font-size: 0.75rem;
   line-height: 1.1rem;
   text-align: center;
   margin: 0.8rem 0rem;
   width: 15rem;
-}
-.title{
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin: 2rem 0rem 0rem 0rem;
-  text-align: center;
 }
 planWrap{
   display: flex;
@@ -55,16 +54,16 @@ planWrap{
   height: 2rem;
   margin: 0.9rem 0.9rem;
 }
+.planAndPrice{
+  font-size: 0.75rem;
+  width: 6rem;
+  line-height: 1.1rem;
+}
 .planName{
   font-weight: bold;
 }
 .price, .text{
   color:hsl(223, 47%, 23%);
-}
-.planAndPrice{
-  font-size: 0.75rem;
-  width: 6rem;
-  line-height: 1.1rem;
 }
 .changebutton{
   color:rgb(65, 47, 230);
